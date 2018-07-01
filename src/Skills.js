@@ -20,7 +20,7 @@ const Skills = props => {
     <Section title="Skills">
       <div className={classes.root}>
         <Chip label="C#" />
-        <Chip label="Angular / AngularJs" />
+        <Chip label="Angular" />
         <Chip label="SQL" />
         <Chip label=".NET / .NET Core" />
         <Chip label="ASP.NET MVC / Web API" />
@@ -31,8 +31,8 @@ const Skills = props => {
         <Chip label="CSS / Saas" />
         <Chip label="Javascript" />
         <Chip label="Typescript" />
-        <Chip label="React" />
         <Chip label="Node.js" />
+        <Chip label="React" />
         <Chip label="SOLID" />
         <Chip label="Clean Architecture" />
         <Chip label="Scrum" />
