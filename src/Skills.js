@@ -31,6 +31,7 @@ const Skills = props => {
         <Chip label="CSS / Saas" />
         <Chip label="Javascript" />
         <Chip label="Typescript" />
+        <Chip label="Android" />
         <Chip label="Node.js" />
         <Chip label="React" />
         <Chip label="SOLID" />
