@@ -26,10 +26,21 @@ const ExperienceItem = withStyles(styles)(
 const Experience = () => {
   return (
     <Section icon={WorkIcon} title="Job experience">
+          <ExperienceItem
+        company="Tiempo Development"
+        location="Guadalajara, Jalisco."
+        lapse="July 2018 - Current"
+
+        activities={[
+          "Created reports on SQL Reporting Services.",
+          "Created stored procedures and views to help customer to get the data that them needs",
+        ]}
+        tools="SQL Server, Server SQL Reporting Services"
+      />
       <ExperienceItem
         company="EMCOR Software"
         location="Ciudad Obregon, Sonora. (Remote from Los Mochis, Sinaloa)"
-        lapse="January 2017 - Current"
+        lapse="January 2017 - July 2018"
 
         activities={[
           "Implemented architecture based on Clean Architecture to create scalable applications with a great quality.",
@@ -42,20 +53,20 @@ const Experience = () => {
           "Maintained and improved ERP and B2B portal focused on the need of the customer.",
           "Developed a product tracking application for a phone selling company."
         ]}
-        tools=".NET Framework, .NET Core, Entity Framework, ASP.NET MVC, SQL SERVER, Web API, GraphQL, Telerik, Angular, Bootstrap, Typescript, Javascript, jQuery, SASS, TFS, Git."
+        tools=".NET Framework, .NET Core, Entity Framework, ASP.NET MVC, SQL Server, Web API, GraphQL, Telerik, Angular, Bootstrap, Typescript, Javascript, jQuery, SASS, TFS, Git."
       />
       <ExperienceItem
         company="BBP & IT ENTERPRISE SERVICES"
         location="Los Mochis, Sinaloa."
         lapse="August 2015 - December 2016"
         activities={[
-          "Implemented architecture based on Onion Architecture and service pattern to create modular and robust applications",
+          "Implemented architecture based on Onion Architecture and service pattern to create modular and robust applications.",
           "Used MVC pattern to separate concerns, created internal libraries to solve common problems over it.",
           "Analyzed the customer's needs to create appropriate solutions.",
           "Used AngularJS to create single page applications with web components to reuse them in the whole application.",
           "Led development projects.",
           "Teached ASP.NET MVC and AngularJS to coworkers.",
-          "Deployed applications in productive environments (IIS and SQL Server)",
+          "Deployed applications in productive environments (IIS and SQL Server).",
           "Created stored procedures in SQL Server.",
           "Developed a powelful configurable excel data import software."
         ]}
@@ -66,7 +77,7 @@ const Experience = () => {
         location="Ciudad Obregón, Sonora."
         lapse="May 2014 - August 2015"
         activities={[
-          "Developed web applications and desktop applications for Collaborative Planning Forecasting and Replenishment",
+          "Developed web applications and desktop applications for Collaborative Planning Forecasting and Replenishment.",
           "Worked on re-engineering of enterprise resource planning application.",
           "Adviced to interns about Android plataform.",
           "Analized requirements, documented projects, created user stories.",
