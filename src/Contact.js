@@ -30,7 +30,7 @@ const Contact = () => {
           <ListItemIcon>
             <HomeIcon />
           </ListItemIcon>
-          <ListItemText primary="Guadalajara, Jalisco" />
+          <ListItemText primary="Guadalajara, Jalisco." />
         </ListItem>
       </List>
     </Section>
