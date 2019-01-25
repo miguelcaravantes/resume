@@ -17,6 +17,9 @@ import Education from "./Education";
 import Skills from "./Skills";
 
 const theme = createMuiTheme({
+  typography: {
+    useNextVariants: true,
+  },
   palette: {
     primary: {
       light: purple[300],

@@ -45,8 +45,8 @@ const Header = props => {
             />
           </Grid>
           <Grid item xs={12} md={6} className={classes.title}>
-            <Typography  variant="display2" className={classes.name}>Miguel Caravantes</Typography>
-            <Typography  variant="display1">Software Developer</Typography>
+            <Typography  variant="h3" className={classes.name}>Miguel Caravantes</Typography>
+            <Typography  variant="h4">Software Developer</Typography>
           </Grid>
         </Grid>
       </header>

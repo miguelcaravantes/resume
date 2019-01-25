@@ -13,7 +13,7 @@ const ExperienceItem = withStyles(styles)(
   ({ company, location, lapse, activities, tools, classes }) => {
     return (
       <div className={classes.root}>
-        <Typography  variant="title">{company}</Typography> <b>{location}</b> <i>{lapse}</i>
+        <Typography  variant="h6">{company}</Typography> <b>{location}</b> <i>{lapse}</i>
         <ul>
           {activities.map((activity, index) => <li key={index}>{activity}</li>)}
         </ul>

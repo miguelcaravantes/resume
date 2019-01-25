@@ -24,7 +24,7 @@ const Section = props => {
   return (
     <section className={classes.root}>
       <div className={classes.title}>
-        <Typography variant="headline">
+        <Typography variant="h5">
           {Icon && <Icon />} {props.title}
         </Typography>
       </div>
