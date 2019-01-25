@@ -93,10 +93,10 @@ const Experience = () => {
         activities={[
           "Worked on a enterprise resource planning software.",
           "Maintained electronic invoicing module.",
-          "Developed a credit and collection software.",
-          "Supported customers on-site.",
-          "Imported data in SQL Server.",
-          "Created reports using DevExpress Reporting."
+          "Developed a credit and collection software to a company dedicated to sales.",
+          "Given on-site support to customers.",
+          "Imported data from another systems using SQL Server.",
+          "Created business reports using DevExpress Reporting."
         ]}
         tools=".NET, SQL Server, SVN, DevExpress, Windows Forms, Firebird."
       />
