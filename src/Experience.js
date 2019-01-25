@@ -33,7 +33,7 @@ const Experience = () => {
 
         activities={[
           "Created reports on SQL Reporting Services.",
-          "Created stored procedures and views to help customer to get the data that them needs",
+          "Created stored procedures, functions and views to deliver requiered data to customers",
         ]}
         tools="SQL Server, Server SQL Reporting Services"
       />
