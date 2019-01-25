@@ -24,13 +24,13 @@ const Contact = () => {
           <ListItemIcon>
             <MailIcon />
           </ListItemIcon>
-          <ListItemText primary="caravantes@outlook.com" />
+          <ListItemText primary="miguel.caravantes0@gmail.com" />
         </ListItem>
         <ListItem>
           <ListItemIcon>
             <HomeIcon />
           </ListItemIcon>
-          <ListItemText primary="Los Mochis, Sinaloa, México" />
+          <ListItemText primary="Guadalajara, Jalisco" />
         </ListItem>
       </List>
     </Section>
