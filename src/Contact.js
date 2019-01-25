@@ -18,7 +18,7 @@ const Contact = () => {
           <ListItemIcon>
             <PhoneIcon />
           </ListItemIcon>
-          <ListItemText primary="6682361145" />
+          <ListItemText primary="668-236-1145" />
         </ListItem>
         <ListItem>
           <ListItemIcon>
