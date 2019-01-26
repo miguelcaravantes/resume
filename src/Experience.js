@@ -35,7 +35,7 @@ const Experience = () => {
           "Created reports on SQL Reporting Services.",
           "Created stored procedures, functions and views to deliver requiered data to customers",
         ]}
-        tools="SQL Server, Server SQL Reporting Services"
+        tools="SQL Server, Server SQL Reporting Services, GIT, Azure DevOps"
       />
       <ExperienceItem
         company="EMCOR Software"
