@@ -17,9 +17,6 @@ import Education from "./Education";
 import Skills from "./Skills";
 
 const theme = createMuiTheme({
-  typography: {
-    useNextVariants: true,
-  },
   palette: {
     primary: {
       light: purple[300],
@@ -61,7 +58,7 @@ class App extends Component {
         <CssBaseline />
         <Header />
         <Grid container className={classes.container}>
-          <Grid  container direction="row-reverse" spacing={40}>
+          <Grid  container direction="row-reverse" spacing={3}>
             <Grid item md={8}>
               <Profile />
               <Experience />
