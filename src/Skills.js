@@ -9,7 +9,7 @@ const styles = theme => ({
     justifyContent: "center",
     flexWrap: "wrap",
     "& *" : {
-        margin: theme.spacing.unit / 2
+        margin: theme.spacing(1) / 2
     }
   }
 });

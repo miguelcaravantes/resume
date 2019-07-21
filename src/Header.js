@@ -7,7 +7,7 @@ const styles = theme => {
   return {
     header: {
       background: theme.palette.primary.main,
-      padding: theme.spacing.unit * 3
+      padding: theme.spacing(3)
     },
     profileImage: {
       width: 200,
@@ -21,7 +21,7 @@ const styles = theme => {
       textAlign: "center",
       [theme.breakpoints.up("md")]: {
         textAlign: "left",
-        marginTop: theme.spacing.unit * 5
+        marginTop: theme.spacing(5)
       }
     },
     name: {

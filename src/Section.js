@@ -4,8 +4,7 @@ import { Typography } from "@material-ui/core";
 
 const styles = theme => ({
   root: {
-    marginTop: theme.spacing.unit * 3
-    /*     marginBottom: theme.spacing.unit * 3  */
+    marginTop: theme.spacing(3)
   },
   title: {
     borderBottomWidth: "2px",
@@ -14,7 +13,7 @@ const styles = theme => ({
     borderBottomColor: theme.palette.primary.main
   },
   body: {
-    paddingTop: theme.spacing.unit * 2
+    paddingTop: theme.spacing(2)
   }
 });
 
