@@ -5,9 +5,9 @@ import Section from "./Section";
 const Profile = () => {
   return (
     <Section icon={AccountCircleIcon} title="Profile">
-      Senior Developer with over 6 years of experience in the software
-      development process, with knowledge in software architecture, design
-      patterns and good practices, focused in results and write clean code,
+      Senior Sofwate Engineer with over 7 years of experience in the software
+      development process, knowledge in software architecture, design
+      patterns and good practices, focused on write clean, testable and quality code,
       passion for technologies, self-taught and proactive person, high ability
       to solve problems. High experience working in Angular and .NET.
     </Section>

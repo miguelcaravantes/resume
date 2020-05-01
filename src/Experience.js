@@ -13,7 +13,7 @@ const ExperienceItem = withStyles(styles)(
   ({ company, location, lapse, activities, tools, classes }) => {
     return (
       <div className={classes.root}>
-        <Typography  variant="h6">{company}</Typography> <b>{location}</b> <i>{lapse}</i>
+        <Typography variant="h6">{company}</Typography> <b>{location}</b> <i>{lapse}</i>
         <ul>
           {activities.map((activity, index) => <li key={index}>{activity}</li>)}
         </ul>
@@ -26,22 +26,27 @@ const ExperienceItem = withStyles(styles)(
 const Experience = () => {
   return (
     <Section icon={WorkIcon} title="Job experience">
-          <ExperienceItem
+      <ExperienceItem
         company="Tiempo Development"
-        location="Guadalajara, Jalisco."
+        location="Guadalajara, Jalisco. (Working from home)"
         lapse="July 2018 - Current"
 
         activities={[
+          "Developed an application for metrics using .NET Core 3 with Workers",
+          "Created a software to automate installation and upgrades of empresarial applications using .NET Core and Web API endpoints able to detect missfunctions and execute recovery process",
+          "Created a linux service to keep client information updated",
+          "Mantained a web API for students control",
+          "Implemented unit testing using MSTest in some projects",
+          "Implemented git flow strategy to handle project branches",
           "Created reports on SQL Reporting Services.",
           "Created stored procedures, functions and views to deliver requiered data to customers",
         ]}
-        tools="SQL Server, Server SQL Reporting Services, GIT, Azure DevOps"
+        tools=".NET Core 3, MSTest, Web API, PostgreSQL, SQL Server, Server SQL Reporting Services, Ubuntu, Bash Scripting, Git, Azure DevOps/TFS"
       />
       <ExperienceItem
         company="EMCOR Software"
         location="Ciudad Obregon, Sonora. (Remote from Los Mochis, Sinaloa)"
         lapse="January 2017 - July 2018"
-
         activities={[
           "Implemented architecture based on Clean Architecture to create scalable applications with a great quality.",
           "Used SOLID principles to kept a good quality of code.",
@@ -53,7 +58,7 @@ const Experience = () => {
           "Maintained and improved ERP and B2B portal focused on the need of the customer.",
           "Developed a product tracking application for a phone selling company."
         ]}
-        tools=".NET Framework, .NET Core, Entity Framework, ASP.NET MVC, SQL Server, Web API, GraphQL, Telerik, Angular, Bootstrap, Typescript, Javascript, jQuery, SASS, TFS, Git."
+        tools=".NET Core/Framework, Angular, Entity Framework, MVC, SQL Server, Web API, GraphQL, Telerik, Bootstrap, Typescript, Javascript, jQuery, SASS, TFS, Git."
       />
       <ExperienceItem
         company="BBP & IT ENTERPRISE SERVICES"
@@ -94,7 +99,6 @@ const Experience = () => {
           "Worked on a enterprise resource planning software.",
           "Maintained electronic invoicing module.",
           "Developed a credit and collection software to a company dedicated to sales.",
-          "Given on-site support to customers.",
           "Imported data from another systems using SQL Server.",
           "Created business reports using DevExpress Reporting."
         ]}
