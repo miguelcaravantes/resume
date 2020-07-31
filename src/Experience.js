@@ -27,21 +27,31 @@ const Experience = () => {
   return (
     <Section icon={WorkIcon} title="Job experience">
       <ExperienceItem
+        company="Unosquare"
+        location="Guadalajara, Jalisco."
+        lapse="June 2020 - Current"
+        activities={[
+          "Maintained a Banking Web Application",
+        ]}
+        tools="Angular, .NET, Entity Framework"
+      />
+      <ExperienceItem
         company="Tiempo Development"
         location="Guadalajara, Jalisco. (Working from home)"
-        lapse="July 2018 - Current"
-
+        lapse="July 2018 - Mayo 2020"
         activities={[
           "Developed an application for metrics using .NET Core 3 with Workers",
-          "Created a software to automate installation and upgrades of empresarial applications using .NET Core and Web API endpoints able to detect missfunctions and execute recovery process",
+          "Created a software to automate installation and upgrades of enterprise applications using .NET Core and Web API endpoints able to detect missfunctions and execute recovery process",
           "Created a linux service to keep client information updated",
           "Mantained a web API for students control",
           "Implemented unit testing using MSTest in some projects",
           "Implemented git flow strategy to handle project branches",
           "Created reports on SQL Reporting Services.",
           "Created stored procedures, functions and views to deliver requiered data to customers",
+          "Created Node.js server for authentication handling",
+          "Used Docker containers"
         ]}
-        tools=".NET Core 3, MSTest, Web API, PostgreSQL, SQL Server, Server SQL Reporting Services, Ubuntu, Bash Scripting, Git, Azure DevOps/TFS"
+        tools=".NET Core 3, MSTest, Web API, PostgreSQL, SQL Server, Server SQL Reporting Services, Ubuntu, Bash Scripting, Git, Azure DevOps/TFS, Docker, Node.js"
       />
       <ExperienceItem
         company="EMCOR Software"
