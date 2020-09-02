@@ -31,9 +31,13 @@ const Experience = () => {
         location="Guadalajara, Jalisco."
         lapse="June 2020 - Current"
         activities={[
-          "Maintained a Banking Web Application",
+          "Worked in a banking project",
+          "Maintained Hybrid Angular Application",
+          "Worked with REST APIs",
+          "Created unit tests in Jasmine for fronted and xUnit.net for backend",
+          "Code reviewed coworkers' pull requests"
         ]}
-        tools="Angular, .NET, Entity Framework"
+        tools="Angular, .NET, Entity Framework, Jasmin, xUnit, Postman, Azure Data Studio, Visual Studio Code, NPM, Scrum, Git"
       />
       <ExperienceItem
         company="Tiempo Development"
