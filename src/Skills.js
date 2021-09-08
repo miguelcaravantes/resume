@@ -3,37 +3,37 @@ import Section from "./Section";
 import Chip from "@material-ui/core/Chip";
 import { withStyles } from "@material-ui/core/styles";
 
-const styles = theme => ({
+const styles = (theme) => ({
   root: {
     display: "flex",
     justifyContent: "center",
     flexWrap: "wrap",
-    "& *" : {
-        margin: theme.spacing(1) / 2
-    }
-  }
+    "& *": {
+      margin: theme.spacing(1) / 2,
+    },
+  },
 });
 
-const Skills = props => {
+const Skills = (props) => {
   const { classes } = props;
   return (
     <Section title="Skills">
       <div className={classes.root}>
-        <Chip label="C#" />
+        <Chip label="Rust " />
+        <Chip label=".NET5 C#9" />
+        <Chip label="React" />
         <Chip label="Angular" />
+        <Chip label="MongoDB" />
         <Chip label="SQL" />
-        <Chip label=".NET / .NET Core" />
-        <Chip label="ASP.NET MVC / Web API" />
         <Chip label="REST" />
         <Chip label="GraphQL" />
-        <Chip label="HTML" />
-        <Chip label="Boostrap" />
+        <Chip label="HTML5" />
+        <Chip label="Boostrap 5" />
         <Chip label="CSS / Saas" />
+        <Chip label="Node.js" />
         <Chip label="Javascript" />
         <Chip label="Typescript" />
-        <Chip label="Android" />
-        <Chip label="Node.js" />
-        <Chip label="React" />
+        <Chip label="Rescript" />
         <Chip label="SOLID" />
         <Chip label="Clean Architecture" />
         <Chip label="Scrum" />
